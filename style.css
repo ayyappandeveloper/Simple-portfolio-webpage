@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+    margin: 40px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 15px;
+
+}
+
+.section-one__name {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.section-one__role {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.section-one__contact {
+    font-size: 17px;
+    padding: 4px;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+}
+
+.section-two {
+    margin-top: 20px;
+}
+
+.section-two__desc {
+    margin-top: 10px;
+}
+
+.section-three,
+.section-four {
+    margin-top: 20px;
+}
+
+.section-three__list,
+.section-four__list {
+    margin-top: 20px;
+}
+
+.section-three__title,
+.section-four__title {
+    font-size: 25px;
+}
+
+
+.section-three__list,
+.section-four__list {
+    list-style: none;
+}
+
+.section-five {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.section-five__link a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.section-five__rights {
+    margin-top: 5px;
+}
+
+.section-three {
+    background-color: rgb(98, 12, 152);
+
+    border-radius: 6px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    height: 165px;
+}
+
+.section-three__title li {
+    padding: 40px;
+}
+
+.section-four {
+    background-color: rgb(255, 106, 0);
+    padding: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.section-three,
+.section-four {
+    margin: 3px;
+}
+
+/* Contact */
+
+.form {
+    margin-top: 20px;
+}
+
+label,
+button {
+    display: flex;
+    margin-top: 10px;
+}
+
+.name {
+    display: flex;
+}
+
+input {
+    margin-left: 25px;
+    margin-top: 5px;
+    border-style: none;
+    border-bottom: solid black 1px;
+}
+
+textarea {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+button {
+    margin-left: 80px;
+    margin-top: 15px;
+    background-color: orangered;
+    color: white;
+    padding: 6px;
+    width: 60px;
+}
